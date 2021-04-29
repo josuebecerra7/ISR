@@ -1,0 +1,2 @@
+my_robot_tutorial:project_1:project_3
+-DCATKIN_DEVEL_PREFIX=/home/jbr/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/jbr/catkin_ws/install -G Unix Makefiles

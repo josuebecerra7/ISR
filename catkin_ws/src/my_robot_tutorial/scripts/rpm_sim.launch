@@ -1,0 +1,6 @@
+<launch>
+<param name="wheel_radius" type="double" value="0.3" />
+<node name="rover_pub_node" pkg="my_robot_tutorial" type="item1.py" />
+<node name="rover_sub_node" pkg="my_robot_tutorial" type="item2.py" />
+<node name="speed_sub_node" pkg="my_robot_tutorial" type="item3.py" />
+</launch>

@@ -1,0 +1,8 @@
+prefix=/home/jbr/catkin_ws/install
+
+Name: my_robot_tutorial
+Description: Description of my_robot_tutorial
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

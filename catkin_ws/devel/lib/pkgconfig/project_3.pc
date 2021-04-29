@@ -1,0 +1,8 @@
+prefix=/home/jbr/catkin_ws/devel
+
+Name: project_3
+Description: Description of project_3
+Version: 0.0.0
+Cflags: -I/home/jbr/catkin_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: 
