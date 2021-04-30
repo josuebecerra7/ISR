@@ -16,11 +16,9 @@ Folder description:
 Usage: 
  -Go into catkin_ws
  -run the following commands:
-     source devel/setup.basp
-```ruby
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
+    
+```
+source devel/setup.basp
 ```
 
 Contributing: Larger projects often have sections on contributing to their project, in which contribution instructions are outlined. Sometimes, this is a separate file. If you have specific contribution preferences, explain them so that other developers know how to best contribute to your work. To learn more about how to help others contribute, check out the guide for setting guidelines for repository contributors.
