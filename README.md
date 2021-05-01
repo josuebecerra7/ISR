@@ -11,8 +11,8 @@ A description of your project follows. A good description is clear, short, and t
 
 ## Installation
 #### Prerequisites
- - [Ubuntu20.04.2 LTS] (https://releases.ubuntu.com/20.04/)
- - [ROS Noetic] (http://wiki.ros.org/noetic/Installation/Ubuntu)
+ - [Ubuntu20.04.2 LTS](https://releases.ubuntu.com/20.04/)
+ - [ROS Noetic](http://wiki.ros.org/noetic/Installation/Ubuntu)
 
 Folder description: 
 -Instructions: Files explaining the project overview
