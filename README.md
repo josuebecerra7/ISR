@@ -25,7 +25,7 @@ source devel/setup.bash
 ```
 
 ## More
-For more information check the wiki  
+For more information check the [wiki](https://github.com/josuebecerra7/ISR/wiki).
 
 ## License
  GNU GENERAL PUBLIC LICENSE <br>
