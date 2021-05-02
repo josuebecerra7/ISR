@@ -14,7 +14,7 @@ A description of your project follows. A good description is clear, short, and t
 ## Installation
 #### Prerequisites
  - [Ubuntu 20.04.2 LTS](https://releases.ubuntu.com/20.04/)
- - [ROS Noetic](http://wiki.ros.org/noetic/Installation/Ubuntu
+ - [ROS Noetic](http://wiki.ros.org/noetic/Installation/Ubuntu)
 
 ## Usage: 
  - Go into catkin_ws
