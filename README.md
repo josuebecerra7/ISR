@@ -29,7 +29,7 @@ roscore
 ```
 
 ## More
-For more information check the [wiki](https://github.com/josuebecerra7/ISR/wiki).
+For more information about the [mini-projects](https://github.com/josuebecerra7/ISR/wiki/Intelligent-Systems-and-Robotics), the [ROS Architecture](https://github.com/josuebecerra7/ISR/wiki/ROS-Architecture-and-Concepts) check the [wiki](https://github.com/josuebecerra7/ISR/wiki).
 
 ## License
  GNU GENERAL PUBLIC LICENSE <br>
