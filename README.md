@@ -23,7 +23,7 @@ A description of your project follows. A good description is clear, short, and t
 ```
 source devel/setup.bash
 ```
- 3. Start the ROS:
+ 3. Start the ROS core:
  ```
 roscore
 ```
