@@ -17,11 +17,15 @@ A description of your project follows. A good description is clear, short, and t
  - [ROS Noetic](http://wiki.ros.org/noetic/Installation/Ubuntu)
 
 ## Usage: 
- - Go into catkin_ws
- - Source the project:
+ 1. Go into catkin_ws
+ 2. Source the project:
     
 ```
 source devel/setup.bash
+```
+ 3. Start the ROS:
+ ```
+roscore
 ```
 
 ## More
