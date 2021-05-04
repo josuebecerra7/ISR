@@ -1,10 +1,10 @@
 # CMake generated Testfile for 
-# Source directory: /home/jbr/catkin_ws/src
-# Build directory: /home/jbr/catkin_ws/build
+# Source directory: /home/jbr/Documents/GitHub/ISR/catkin_ws/src
+# Build directory: /home/jbr/Documents/GitHub/ISR/catkin_ws/build
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
 subdirs("gtest")
-subdirs("my_robot_tutorial")
-subdirs("project_1")
-subdirs("project_3")
+subdirs("src/my_robot_tutorial")
+subdirs("src/project_1")
+subdirs("src/project_3")

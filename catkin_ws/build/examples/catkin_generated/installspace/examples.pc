@@ -1,8 +1,0 @@
-prefix=/home/jbr/catkin_ws/install
-
-Name: examples
-Description: Description of examples
-Version: 0.0.0
-Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib 
-Requires: 

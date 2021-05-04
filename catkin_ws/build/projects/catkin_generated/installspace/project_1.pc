@@ -1,8 +1,0 @@
-prefix=/home/jbr/catkin_ws/install
-
-Name: project_1
-Description: Description of project_1
-Version: 0.0.0
-Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib 
-Requires: 

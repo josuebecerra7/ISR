@@ -1,2 +1,0 @@
-set(project_1_MESSAGE_FILES "")
-set(project_1_SERVICE_FILES "/home/jbr/catkin_ws/src/projects/srv/OddEvenCheck.srv;/home/jbr/catkin_ws/src/projects/srv/TurnCamera.srv")
