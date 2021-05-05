@@ -29,6 +29,11 @@ source devel/setup.bash
  ```
 roscore
 ```
+ 4. Run [project 1](https://github.com/josuebecerra7/ISR/wiki/Solution-Mini-Project-1)
+ 5. Run [project 2](https://github.com/josuebecerra7/ISR/wiki/Solution-Mini-Project-2)
+ 6. Run [project 3](https://github.com/josuebecerra7/ISR/wiki/Solution-Mini-Project-3)
+ 7. Run [project 4](https://github.com/josuebecerra7/ISR/wiki/Solution-Mini-Project-4)  
+
 
 ## More
 For more information about the [mini-projects](https://github.com/josuebecerra7/ISR/wiki/Intelligent-Systems-and-Robotics-Mini-Projects), the [ROS Architecture](https://github.com/josuebecerra7/ISR/wiki/ROS-Architecture-and-Concepts) check the [wiki](https://github.com/josuebecerra7/ISR/wiki).
