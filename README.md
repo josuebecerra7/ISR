@@ -3,7 +3,9 @@ Robot Operating System (ROS) project <br>
 Josue Becerra Rico
 
 ## Description
-A description of your project follows. A good description is clear, short, and to the point. Describe the importance of your project, and what it does.
+This repository includes several mini-projects using the Robot Operating System (ROS) implemented using python.<br>
+The projects explanation and the documentation are shown in the [wiki](https://github.com/josuebecerra7/ISR/wiki) page.
+
 
 ## Table of Contents
  1. [Prerequisites](#Prerequisites)
