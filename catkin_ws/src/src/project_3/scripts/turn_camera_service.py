@@ -31,11 +31,11 @@ class TurnCameraClass:
      #   return self.read_in_image_by_file_name("0.png")
 
     def send_image(self, req):
-
+        # Get image
         image = self.get_image(req.turn_degrees)
-
+        # Format it
         image_msg = (CvBridge().cv2_to_imgmsg(image))
-
+        # Return image
         return TurnCameraResponse(image_msg)
 
 if __name__=='__main__': # init the node
