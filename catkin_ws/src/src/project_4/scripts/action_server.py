@@ -30,10 +30,6 @@ class Navigate2DClass:
         # Set goal point
         self.robot_goal_point = [goal.point.x, goal.point.y, goal.point.z]
 
-    def update_robot_position(self, point):
-        ''' This function updates the robot position '''
-        self.robot_current_point = [point.x, point.y, point.z]
-
         # Check if robot from client is detected every 5 seconds
         while self.robot_current_point == None:
             print("Robot Point Not Detected")
@@ -58,9 +54,13 @@ class Navigate2DClass:
         elapsed_time = navigate_end_time - navigate_start_time
 
         # Log elapsed time
-        rospy.loginfo("Navigation Succesful, Elapsed Time: " + srt(elapsed_time) + "seconds")
+        rospy.loginfo("Navigation Succesful, Elapsed Time: " + str(elapsed_time) + "seconds")
         
         self.action_server.set_succeeded(Navigate2DResult(elapsed_time))
+    
+    def update_robot_position(self, point):
+        ''' This function updates the robot position '''
+        self.robot_current_point = [point.x, point.y, point.z]
 
 if __name__=="__main__":
     rospy.init_node("navigate_2D_action_server_node")

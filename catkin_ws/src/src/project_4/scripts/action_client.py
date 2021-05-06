@@ -41,5 +41,5 @@ if __name__ == "__main__":
         result = nav_client(user_coords)
         print(result)
 
-    except rospy.ROSInterrptException:
+    except rospy.ROSInterruptException:
         print("Program Interrupted")
