@@ -63,8 +63,9 @@ class Navigate2DClass:
         self.robot_current_point = [point.x, point.y, point.z]
 
 if __name__=="__main__":
+    # Init node
     rospy.init_node("navigate_2D_action_server_node")
-
+    # Call class
     server = Navigate2DClass()
 
     rospy.spin()

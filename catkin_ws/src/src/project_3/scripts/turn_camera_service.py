@@ -18,8 +18,10 @@ class TurnCameraClass:
         self.ros_service = rospy.Service("turn_camera", TurnCamera, self.send_image)
 
     def read_in_image_by_file_name(self, file_name):
+        # Get working directory
         dir_name = os.path.dirname(__file__)
         file_location = dir_name + "/images/" + file_name
+        # Read image using CV2 function
         image = cv2.imread(file_location)
         return image
 
