@@ -2,7 +2,7 @@
 # Josue Becerra Rico
 # Intelligent Systems and Robotics
 
-# This script publishes the rpm of the robot to the rpm topic
+# This server file return the "photos" taken by the robot
 
 # Import Libraries  
 import rospy
@@ -13,8 +13,9 @@ from cv_bridge import CvBridge
 
 class TurnCameraClass:
     def __init__(self):
+        # Define possible angles
         self.available_angles = [-30,-15,0,15,30]
-        self.ros_service= rospy.Service("turn_camera", TurnCamera, self.send_image)
+        self.ros_service = rospy.Service("turn_camera", TurnCamera, self.send_image)
 
     def read_in_image_by_file_name(self, file_name):
         dir_name = os.path.dirname(__file__)
