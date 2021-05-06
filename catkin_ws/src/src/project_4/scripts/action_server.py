@@ -33,7 +33,7 @@ class Navigate2DClass:
         # Check if robot from client is detected every 5 seconds
         while self.robot_current_point == None:
             print("Robot Point Not Detected")
-            rospy.sleep(5)
+            rospy.sleep(2)
         # Notify when robot is detected
         print("Robot Point Detected")
         # Measure distance between current point and goal point
@@ -43,7 +43,7 @@ class Navigate2DClass:
         while distance_to_goal > self.distance_threshold:
             # Publish feedback when goal is reached
             self.action_server.publish_feedback(Navigate2DFeedback(distance_to_point = distance_to_goal))
-            self.feedback_rate.sleep()
+            self.feedback_rate.sleep(2)
             # Measure distance between current point and goal point
             distance_to_goal = math.dist(self.robot_current_point, self.robot_goal_point)
         
