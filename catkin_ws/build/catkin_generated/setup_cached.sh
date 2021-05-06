@@ -7,7 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export PKG_CONFIG_PATH='/opt/ros/noetic/lib/pkgconfig'
 export PWD='/home/jbr/Documents/GitHub/ISR/catkin_ws/build'
-export PYTHONPATH='/opt/ros/noetic/lib/python3/dist-packages'
-export ROS_PACKAGE_PATH='/home/jbr/Documents/GitHub/ISR/catkin_ws/src:/opt/ros/noetic/share'

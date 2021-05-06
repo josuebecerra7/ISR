@@ -134,6 +134,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/jbr/Documents/GitHub/ISR/catkin_ws/build/src/my_robot_tutorial/cmake_install.cmake")
   include("/home/jbr/Documents/GitHub/ISR/catkin_ws/build/src/project_1/cmake_install.cmake")
   include("/home/jbr/Documents/GitHub/ISR/catkin_ws/build/src/project_3/cmake_install.cmake")
+  include("/home/jbr/Documents/GitHub/ISR/catkin_ws/build/src/project_4/cmake_install.cmake")
 
 endif()
 

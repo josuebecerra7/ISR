@@ -1,0 +1,8 @@
+prefix=/home/jbr/Documents/GitHub/ISR/catkin_ws/install
+
+Name: project_4
+Description: Description of project_4
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

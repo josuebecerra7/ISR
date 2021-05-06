@@ -1,2 +1,2 @@
-src/my_robot_tutorial:src/project_1:src/project_3
+src/my_robot_tutorial:src/project_1:src/project_3:src/project_4
 -DCATKIN_DEVEL_PREFIX=/home/jbr/Documents/GitHub/ISR/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/jbr/Documents/GitHub/ISR/catkin_ws/install -G Unix Makefiles
