@@ -8,7 +8,7 @@ import actionlib
 from project_4.msg import Navigate2DAction, Navigate2DFeedback, Navigate2DResult, Navigate2DGoal
 from geometry_msgs.msg import Point
 
-def feedback_callback(feedback):
+def action_feedback_callback(feedback):
     
     print("Distance To Goal: " + str(feedback.distance_to_point))
 
@@ -22,7 +22,7 @@ def nav_client(user_coords):
 
     goal = Navigate2DGoal(point_msg)
     
-    client.send_goal(goal, feedback_cb = feedback_callback)
+    client.send_goal(goal, feedback_cb = action_feedback_callback)
 
     client.wait_for_result()
 
@@ -30,11 +30,11 @@ def nav_client(user_coords):
 
 if __name__ == "__main__":
     try:
-        rospy.init_node("navigate_2D_action_client_node")
+        rospy.init_node("navigate_2D_action_client_node", anonymous=True)
 
-        user_x = input("What is your desired x-coordinates? : ")
-        user_y = input("What is your desired y-coordinates? : ")
-        user_z = input("What is your desired z-coordinates? : ")
+        user_x = input("Set x-coordinate: ")
+        user_y = input("Set y-coordinate: ")
+        user_z = input("Set z-coordinate: ")
 
         user_coords = [float(user_x), float(user_y), float(user_z)]
 
